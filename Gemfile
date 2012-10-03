@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
+gem 'jquery-rails', '2.0.2'
+gem 'bootstrap-sass', '2.0.4'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -21,8 +23,6 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 end
-
-gem 'jquery-rails', '2.0.2'
 
 group :test do
 	gem 'capybara', '1.1.2'
